@@ -3,7 +3,7 @@
 ## Uporabnik
 
 - id              -- auto generated
-- uporabnisko_Ime
+- uporabnisko_ime
 - geslo
 - mail
 - ime
@@ -15,8 +15,8 @@
 - id              -- auto generated
 - naziv
 - opis
-- cenaNaEnoto
-- enotaMere
+- cena_na_enoto
+- enota_mere
 - kolicina
 
 ## Narocilo (sibki tip) / Kosarica
@@ -28,7 +28,7 @@
 
 ## Racun
 
-- id racuna       -- auto generated
-- id narocila
-- nacin placila
-- nacin dostave
+- id_racuna       -- auto generated
+- id_narocila
+- nacin_placila
+- nacin_dostave
