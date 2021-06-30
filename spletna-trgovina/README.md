@@ -16,14 +16,13 @@
 - opis
 - cena_na_enoto
 - enota_mere
-- kolicina
+- zaloga
 
 ## Narocilo (sibki tip) / Kosarica
 
 - id_narocila              -- auto generated
 - id_izdelka
 - uporabnisko_ime
-- enota_mere
 - kolicina
 
 ## Racun
