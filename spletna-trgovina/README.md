@@ -23,6 +23,7 @@
 - id              -- auto generated
 - id_izdelek
 - id_uporabnik
+- enota_mere
 - kolicina
 
 ## Racun
