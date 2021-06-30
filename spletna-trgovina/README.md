@@ -2,7 +2,6 @@
 
 ## Uporabnik
 
-- id              -- auto generated
 - uporabnisko_ime
 - geslo
 - mail
