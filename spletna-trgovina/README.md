@@ -3,19 +3,21 @@
 ## Uporabnik
 
 - id              -- auto generated
-- username
-- password
+- uporabnisko_Ime
+- geslo
 - mail
-- first name
-- last name
+- ime
+- priimek
 - naslov
 
-## Izdelek
+## Izdelek / Zaloga
 
 - id              -- auto generated
 - naziv
 - opis
-- cena
+- cenaNaEnoto
+- enotaMere
+- kolicina
 
 ## Narocilo (sibki tip) / Kosarica
 
