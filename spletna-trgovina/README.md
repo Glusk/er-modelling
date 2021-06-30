@@ -11,7 +11,7 @@
 
 ## Izdelek / Zaloga
 
-- id              -- auto generated
+- id_izdelka              -- auto generated
 - naziv
 - opis
 - cena_na_enoto
@@ -20,9 +20,9 @@
 
 ## Narocilo (sibki tip) / Kosarica
 
-- id              -- auto generated
-- id_izdelek
-- id_uporabnik
+- id_narocila              -- auto generated
+- id_izdelka
+- uporabnisko_ime
 - enota_mere
 - kolicina
 
