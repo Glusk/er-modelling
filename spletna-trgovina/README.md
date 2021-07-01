@@ -24,10 +24,20 @@
 - id_izdelka
 - uporabnisko_ime
 - kolicina
+- datum_narocila
+
+## Dobavnica
+
+- id_dobavnice    -- auto generated
+- id_narocila
+- datum_odpreme
+- naslov_za_dostavo
 
 ## Racun
 
 - id_racuna       -- auto generated
 - id_narocila
+- id_dobavnice
 - nacin_placila
 - nacin_dostave
+- datum_izdaje
