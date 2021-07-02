@@ -1,6 +1,7 @@
 # Spletna trgovina
 
 ![Logo](./shopping-cart.png)
+
 ## Uporabnik
 
 - uporabnisko_ime
@@ -10,18 +11,18 @@
 - priimek
 - naslov
 
-## Izdelek / Zaloga
+## Izdelek
 
-- id_izdelka              -- auto generated
+- id_izdelka
 - naziv
 - opis
 - cena_na_enoto
 - enota_mere
 - zaloga
 
-## Narocilo (sibki tip) / Kosarica
+## Narocilo / Kosarica
 
-- id_narocila              -- auto generated
+- id_narocila
 - id_izdelka
 - uporabnisko_ime
 - kolicina
@@ -29,18 +30,16 @@
 
 ## Dobavnica
 
-- id_dobavnice    -- auto generated
+- id_dobavnice
 - id_narocila
 - datum_odpreme
 - naslov_za_dostavo
 
 ## Racun
 
-- id_racuna       -- auto generated
-- id_narocila
+- id_racuna
 - id_dobavnice
-- nacin_placila
-- nacin_dostave
+- id_narocila
 - datum_izdaje
 
 ---
