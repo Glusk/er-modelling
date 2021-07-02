@@ -1,5 +1,6 @@
 # Spletna trgovina
 
+![Logo](./shopping-cart.png)
 ## Uporabnik
 
 - uporabnisko_ime
@@ -41,3 +42,7 @@
 - nacin_placila
 - nacin_dostave
 - datum_izdaje
+
+---
+
+<div>Icon made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
