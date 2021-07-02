@@ -5,7 +5,7 @@ and completeness.
 
 Some of the models will be done in English and some in Slovene.
 
-## Naming convetions
+## Naming conventions
 
 Entity and table names shall be written in
 [`PascalCase`](https://en.wikipedia.org/wiki/Camel_case), attribute and
