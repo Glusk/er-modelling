@@ -1,6 +1,6 @@
 # Spletna trgovina
 
-![MySQL Model](./mysql-model.svg)
+<img src="./mysql-model.svg" alt="drawing" width="1000"/>
 
 ## Uporabnik
 
