@@ -1,47 +1,48 @@
 # Spletna trgovina
 
-![Logo](./shopping-cart.png)
+![MySQL Model](./mysql-model.svg)
 
 ## Uporabnik
 
-- uporabnisko_ime
-- geslo
-- mail
-- ime
-- priimek
-- naslov
+Ta tabela je šifrant uporabnikov.
+
+### Opombe
+V produkciji si morda ne bi želeli hraniti gesel v tekstovni obliki.
+Morda manjka kakšen atribut `je_aktiven`, ki bi samo deaktiviral uporabnika in ne tudi pobrisal.
 
 ## Izdelek
 
-- id_izdelka
-- naziv
-- opis
-- cena_na_enoto
-- enota_mere
-- zaloga
+Ta tabela je šifrant izdelkov, ki hkrati predstavlja tudi zalogo le-teh.
 
-## Narocilo / Kosarica
+### Opombe
 
-- id_narocila
-- id_izdelka
-- uporabnisko_ime
-- kolicina
-- datum_narocila
+Mogoče tu manjka kakšen `tip_izdelka`, ki bi omogočal filtriranje po
+kategorijah.
+
+## Narocilo in PostavkaNarocila
+
+Ti dve tabeli služita kot podpora za nakupovalno košarico.
+
+Naročilo, lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
+tabelo Narocilo.
 
 ## Dobavnica
 
-- id_dobavnice
-- id_narocila
-- datum_odpreme
-- naslov_za_dostavo
+To je neko potrdilo o odpremi pošiljke, hkrati pa lahko tu zabeležimo naslov
+prejemnika. Naslov prejemnika ni vezan na uporabnika.
 
 ## Racun
 
-- id_racuna
-- id_dobavnice
-- id_narocila
-- datum_izdaje
+Zadnja stopnja pri obdelavi naročila.
 
----
+Pot od naročila do računa je na risbi modela predstavljena linearno, da se poudari
+dejansko sosledje. Torej za neko naročilo bo najprej izdana dobavnica nato
+pa še račun.
 
-<div>Icon made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+## Uporabnik in NarocilaUporabnika
+
+Ti dve tabeli služita za obdelavo podatkov o kupcih.
+
+Pogledamo lahko, kdo je najbolj zvesta stranka, glede na število nakupov in
+na tej podlagi ponudimo popust. Ker hranimo naslov uporabnika, lahko
+predlagamo naslov za dostavo.
