@@ -2,14 +2,6 @@
 
 <img src="./mysql-model.svg" alt="drawing" width="1000"/>
 
-## Uporabnik
-
-Ta tabela je šifrant uporabnikov.
-
-### Opombe
-V produkciji si morda ne bi želeli hraniti gesel v tekstovni obliki.
-Morda manjka kakšen atribut `je_aktiven`, ki bi samo deaktiviral uporabnika in ne tudi pobrisal.
-
 ## Izdelek
 
 Ta tabela je šifrant izdelkov, ki hkrati predstavlja tudi zalogo le-teh.
@@ -46,3 +38,9 @@ Ti dve tabeli služita za obdelavo podatkov o kupcih.
 Pogledamo lahko kdo je najbolj zvesta stranka, glede na število nakupov in
 na tej podlagi ponudimo popust. Ker hranimo naslov uporabnika, lahko
 predlagamo naslov za dostavo.
+
+### Opombe
+
+V produkciji si morda ne bi želeli hraniti gesel v tekstovni obliki.
+Morda manjka kakšen atribut `je_aktiven`, ki bi samo deaktiviral uporabnika
+(in ne tudi pobrisal).
