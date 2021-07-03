@@ -23,7 +23,7 @@ kategorijah.
 
 Ti dve tabeli služita kot podpora za nakupovalno košarico.
 
-Naročilo, lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
+Naročilo lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
 tabelo Narocilo.
 
 ## Dobavnica
@@ -43,6 +43,6 @@ pa še račun.
 
 Ti dve tabeli služita za obdelavo podatkov o kupcih.
 
-Pogledamo lahko, kdo je najbolj zvesta stranka, glede na število nakupov in
+Pogledamo lahko kdo je najbolj zvesta stranka, glede na število nakupov in
 na tej podlagi ponudimo popust. Ker hranimo naslov uporabnika, lahko
 predlagamo naslov za dostavo.
