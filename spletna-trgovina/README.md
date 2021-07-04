@@ -44,12 +44,6 @@ Pot od naročila do računa je na risbi modela predstavljena linearno, da se pou
 dejansko sosledje. Torej za neko naročilo bo najprej izdana dobavnica nato
 pa še račun.
 
-### Opombe
-
-Morda atribut `id_dobavnice` ni obvezen. Recimo, da imamo tudi
-fizično trgovino in stranka izbere osebni prevzem. Ampak potem bi bilo treba
-na novo premisliti model, saj brez dobavnice izgubimo zvezo med računom in naročilom.
-
 ## Uporabnik in NarocilaUporabnika
 
 *(angl. User and UserOrders)*
