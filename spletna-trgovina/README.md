@@ -4,12 +4,15 @@
 
 ## Izdelek
 
-Ta tabela je šifrant izdelkov, ki hkrati predstavlja tudi zalogo le-teh.
+Ta tabela je šifrant izdelkov.
 
 ### Opombe
 
-Mogoče tu manjka kakšen `tip_izdelka`, ki bi omogočal filtriranje po
-kategorijah.
+Mogoče tu manjka kakšen atribut `kategorija`, ki bi omogočal filtriranje.
+
+Za atribut `zaloga` se zdi, kot da je odveč. Informacijo o stanju zalog neka spletna
+trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
+[*WMS (Warehouse Management System)*](https://en.wikipedia.org/wiki/Warehouse_management_system)
 
 ## Narocilo in PostavkaNarocila
 
