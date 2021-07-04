@@ -12,7 +12,7 @@ Mogoče tu manjka kakšen atribut `kategorija`, ki bi omogočal filtriranje.
 
 Za atribut `zaloga` se zdi, kot da je odveč. Informacijo o stanju zalog neka spletna
 trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
-[*WMS (Warehouse Management System)*](https://en.wikipedia.org/wiki/Warehouse_management_system)
+[*WMS (Warehouse Management System)*](https://en.wikipedia.org/wiki/Warehouse_management_system).
 
 ## Narocilo in PostavkaNarocila
 
