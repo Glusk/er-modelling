@@ -44,6 +44,9 @@ Pot od naročila do računa je na risbi modela predstavljena linearno, da se pou
 dejansko sosledje. Torej za neko naročilo bo najprej izdana dobavnica nato
 pa še račun.
 
+Atribut `id_dobavnice` je opcijski. To pride prav, kadar blaga ne pošiljamo
+in ga stranka prevzame osebno.
+
 ## Uporabnik in NarocilaUporabnika
 
 *(angl. User and UserOrders)*
