@@ -50,6 +50,7 @@ predlagamo naslov za dostavo.
 
 ### Opombe
 
-V produkciji si morda ne bi želeli hraniti gesel v tekstovni obliki.
+Morda si ne bi želeli hraniti gesel v tekstovni obliki.
+
 Morda manjka kakšen atribut `je_aktiven`, ki bi samo deaktiviral uporabnika
 (in ne tudi pobrisal).
