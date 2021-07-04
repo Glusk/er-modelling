@@ -44,7 +44,7 @@ na novo premisliti model, saj brez dobavnice izgubimo zvezo med računom in naro
 
 Ti dve tabeli služita za obdelavo podatkov o kupcih.
 
-Pogledamo lahko kdo je najbolj zvesta stranka, glede na število nakupov in
+Pogledamo lahko kdo je najbolj zvesta stranka glede na število nakupov in
 na tej podlagi ponudimo popust. Ker hranimo naslov uporabnika, lahko
 predlagamo naslov za dostavo.
 
