@@ -1,8 +1,12 @@
 # Spletna trgovina
 
+*(angl. Web store)*
+
 <img src="./mysql-model.svg" alt="drawing" width="1000"/>
 
 ## Izdelek
+
+*(angl. Product, Item)*
 
 Ta tabela je šifrant izdelkov.
 
@@ -16,6 +20,8 @@ trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
 
 ## Narocilo in PostavkaNarocila
 
+*(angl. Order and OrderItems)*
+
 Ti dve tabeli služita kot podpora za nakupovalno košarico.
 
 Naročilo lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
@@ -23,10 +29,14 @@ tabelo Narocilo.
 
 ## Dobavnica
 
+*(angl. Deliverly Note)*
+
 To je neko potrdilo o odpremi pošiljke, hkrati pa lahko tu zabeležimo naslov
 prejemnika. Naslov prejemnika ni vezan na uporabnika.
 
 ## Racun
+
+*(angl. Invoice)*
 
 Zadnja stopnja pri obdelavi naročila.
 
@@ -41,6 +51,8 @@ fizično trgovino in stranka izbere osebni prevzem. Ampak potem bi bilo treba
 na novo premisliti model, saj brez dobavnice izgubimo zvezo med računom in naročilom.
 
 ## Uporabnik in NarocilaUporabnika
+
+*(angl. User and UserOrders)*
 
 Ti dve tabeli služita za obdelavo podatkov o kupcih.
 
