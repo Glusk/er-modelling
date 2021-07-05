@@ -1,5 +1,5 @@
 -- Cene izdelkov na narocilu
-SELECT n.id_narocila, i.id_izdelka, i.naziv, i.enota_mere, ci.cena_na_enoto_mere
+SELECT n.id_narocila, i.id_izdelka, i.naziv, i.enota_mere, ci.cena_na_enoto_mere, ci.popust
 FROM Narocilo n
 LEFT JOIN PostavkaNarocila pn
 ON n.id_narocila = pn.id_narocila
