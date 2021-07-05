@@ -11,10 +11,10 @@ INSERT INTO Izdelek (id_izdelka, naziv, opis, enota_mere) VALUES
 
 SELECT * FROM Izdelek;
 
-INSERT INTO CenikIzdelkov (id_obdobja, id_izdelka, cena_na_enoto_mere) VALUES
-(1, 1, 5.99),
-(1, 2, 4.99),
-(2, 3, 399.99);
+INSERT INTO CenikIzdelkov (id_obdobja, id_izdelka, cena_na_enoto_mere, popust) VALUES
+(1, 1, 5.99, NULL),
+(1, 2, 4.99, NULL),
+(2, 3, 399.99, NULL);
 
 SELECT * FROM CenikIzdelkov;
 
