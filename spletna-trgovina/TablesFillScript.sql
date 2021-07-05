@@ -4,10 +4,10 @@ INSERT INTO PromocijskoObdobje (id_obdobja, zacetek, konec, opombe) VALUES
 
 SELECT * FROM PromocijskoObdobje;
 
-INSERT INTO Izdelek (id_izdelka, naziv, opis, enota_mere, zaloga) VALUES
-(1, 'Zobna pasta', NULL, 'kos', 100),
-(2, 'Milka', NULL, 'kos', 1000),
-(3, 'HP ProBook', NULL, 'kos', 10);
+INSERT INTO Izdelek (id_izdelka, naziv, opis, enota_mere) VALUES
+(1, 'Zobna pasta', NULL, 'kos'),
+(2, 'Milka', NULL, 'kos'),
+(3, 'HP ProBook', NULL, 'kos');
 
 SELECT * FROM Izdelek;
 
