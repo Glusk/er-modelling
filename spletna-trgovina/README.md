@@ -13,8 +13,10 @@ Ta tabela je šifrant izdelkov.
 ### Opombe
 
 Mogoče tu manjka kakšen atribut `kategorija`, ki bi omogočal filtriranje.
+Za to bi potrebovali še najmanj eno dodatno tabelo, kar bi po nepotrebnem
+zakompliciralo preprost model.
 
-Za atribut `zaloga` se zdi, kot da je odveč. Informacijo o stanju zalog neka spletna
+Informacijo o stanju zalog neka spletna
 trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
 [*WMS (Warehouse Management System)*](https://en.wikipedia.org/wiki/Warehouse_management_system).
 
