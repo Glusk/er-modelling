@@ -27,7 +27,8 @@ trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
 Ti dve tabeli služita kot podpora za nakupovalno košarico.
 
 Naročilo lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
-tabelo Narocilo.
+tabelo Narocilo. V tem primeru moramo shraniti mail gosta v `kontaktni_mail`
+naročila, da mu lahko pošljemo račun.
 
 ## Dobavnica
 

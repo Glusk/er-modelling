@@ -24,8 +24,8 @@ INSERT INTO Uporabnik (uporabnisko_ime, geslo, mail, ime, priimek, naslov) VALUE
 
 SELECT * FROM Uporabnik;
 
-INSERT INTO Narocilo (id_narocila, datum_narocila) VALUES
-(1, '2020-12-04 17:41:23');
+INSERT INTO Narocilo (id_narocila, datum_narocila, kontaktni_mail) VALUES
+(1, '2020-12-04 17:41:23', NULL);
 
 SELECT * FROM Narocilo;
 
