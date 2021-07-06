@@ -31,7 +31,8 @@ Naročilo lahko izvede tudi "gost".
 V `kontaktni_mail` naročila shranimo mail za komunikacijo s stranko.
 
 Čeprav podatki o prejemniku sodijo na dobavnico, jih moramo v shraniti ob
-vnosu naročila, ker je dobavnica izstavljena šele po plačilu predračuna.
+vnosu naročila, ker je dobavnica izstavljena šele po plačilu predračuna. Niso
+pa ti podatki obvezni, saj lahko stranka prevzame robo tudi v trgovini.
 
 ## Dobavnica
 
