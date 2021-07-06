@@ -26,8 +26,7 @@ trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
 
 Ti dve tabeli služita kot podpora za nakupovalno košarico.
 
-Naročilo lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
-tabelo Narocilo.
+Naročilo lahko izvede tudi "gost".
 
 V `kontaktni_mail` naročila shranimo mail za komunikacijo s stranko.
 
