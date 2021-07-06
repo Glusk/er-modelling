@@ -27,15 +27,18 @@ trgovina verjetno pridobi iz svojih skladiščnih podsistemov -
 Ti dve tabeli služita kot podpora za nakupovalno košarico.
 
 Naročilo lahko izvede tudi "gost", saj tabela Uporabnik ni direktno vezana na
-tabelo Narocilo. V tem primeru moramo shraniti mail gosta v `kontaktni_mail`
-naročila, da mu lahko pošljemo račun.
+tabelo Narocilo.
+
+V `kontaktni_mail` naročila shranimo mail za komunikacijo s stranko.
+
+Čeprav podatki o prejemniku sodijo na dobavnico, jih moramo v shraniti ob
+vnosu naročila, ker je dobavnica izstavljena šele po plačilu predračuna.
 
 ## Dobavnica
 
 *(angl. Deliverly Note)*
 
-To je neko potrdilo o odpremi pošiljke, hkrati pa lahko tu zabeležimo naslov
-prejemnika. Naslov prejemnika ni vezan na uporabnika.
+To je neko potrdilo o odpremi pošiljke.
 
 ## Racun
 
@@ -44,11 +47,15 @@ prejemnika. Naslov prejemnika ni vezan na uporabnika.
 Zadnja stopnja pri obdelavi naročila.
 
 Pot od naročila do računa je na risbi modela predstavljena linearno, da se poudari
-dejansko sosledje. Torej za neko naročilo bo najprej izdana dobavnica nato
-pa še račun.
+dejansko sosledje. 
 
-Atribut `id_dobavnice` je opcijski. To pride prav, kadar blaga ne pošiljamo
-in ga stranka prevzame osebno.
+Imamo dve možnosti:
+
+- plačilo po predračunu + pošiljanje blaga po pošti
+- plačilo v fizični trgovini + osebni prevzem
+
+V ta namen imamo v računu dva opcijska atributa: `id_narocila` in
+`id_dobavnice`. Natanko eden izmed njiju je obvezen na vsakem računu.
 
 ## Uporabnik in NarocilaUporabnika
 

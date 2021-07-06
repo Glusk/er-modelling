@@ -19,13 +19,13 @@ INSERT INTO CenikIzdelkov (id_obdobja, id_izdelka, cena_na_enoto_mere, popust) V
 SELECT * FROM CenikIzdelkov;
 
 INSERT INTO Uporabnik (uporabnisko_ime, geslo, mail, ime, priimek, naslov) VALUES
-('cofkocof12', 'Avstralija123', 'cofko.cof@gmail.com', 'Cofko', 'Cof', 'Avstralska cesta 27, 4444'),
+('cofkocof12', 'Avstralija123', 'cofko.cof@gmail.com', 'Cofko', 'Cof', 'Avstralska cesta 27, 4444 Zelen dol'),
 ('zdravkoDren', 'sadje123', 'zdravko.dren@gmail.com', 'Zdravko', 'Dren', 'Rudarska cesta 9, 1420 Trbovlje');
 
 SELECT * FROM Uporabnik;
 
-INSERT INTO Narocilo (id_narocila, datum_narocila, kontaktni_mail) VALUES
-(1, '2020-12-04 17:41:23', NULL);
+INSERT INTO Narocilo (id_narocila, datum_narocila, kontaktni_mail, ime_prejemnika, priimek_prejemnika, naslov_za_dostavo) VALUES
+(1, '2020-12-04 17:41:23', 'gost1122@gmail.com', 'Janez', 'Novak', 'Tiha cesta 14, 1000 Ljubljana');
 
 SELECT * FROM Narocilo;
 
