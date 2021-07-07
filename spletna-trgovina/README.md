@@ -57,6 +57,17 @@ Imamo dve možnosti:
 V ta namen imamo v računu dva opcijska atributa: `id_narocila` in
 `id_dobavnice`. Natanko eden izmed njiju je obvezen na vsakem računu.
 
+### Opombe 
+
+Pri spletni trgovini imamo v resnici na voljo naslednje opcije:
+
+1. spletno naročilo -> predračun -> pošiljanje po pošti
+2. spletno naročilo -> osebni prevzem v trgovini -> plačilo
+3. spletno naročilo -> pošiljanje po pošti -> plačilo po povzetju
+4. spletno naročilo -> predračun -> osebni prevzem v trgovini
+
+Zaradi enostavnosti modela smo upoštevali samo možnosti 1 in 2.
+
 ## Uporabnik in NarocilaUporabnika
 
 *(angl. User and UserOrders)*
