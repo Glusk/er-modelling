@@ -68,15 +68,15 @@ Pri spletni trgovini imamo v resnici na voljo naslednje opcije:
 
 Zaradi enostavnosti modela smo upoštevali samo možnosti 1 in 2.
 
-## Uporabnik in NarocilaUporabnika
+## Uporabnik
 
-*(angl. User and UserOrders)*
+*(angl. User)*
 
-Ti dve tabeli služita za obdelavo podatkov o kupcih.
+Ta tabela hrani podatke o uporabnikih spletne trgovine.
 
-Pogledamo lahko kdo je najbolj zvesta stranka glede na število nakupov in
-na tej podlagi ponudimo popust. Ker hranimo naslov uporabnika, lahko
-predlagamo naslov za dostavo.
+Ker imamo povezavo s tabelo Naročilo, lahko pogledamo kdo je najbolj
+zvesta stranka glede na število nakupov in na tej podlagi ponudimo
+popust. Ker hranimo naslov uporabnika, lahko predlagamo naslov za dostavo.
 
 ### Opombe
 
